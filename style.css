@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #000000;
+    overflow-x: hidden;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+}
+
+.profile {
+    height: 15vh;
+    width: 15vh;
+    margin-top: 10vh;
+}
+
+p {
+    color: white;
+    font-size: 3vh;
+}
+
+.discription {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+.connect {
+    color: white;
+    font-size: 200%;
+    margin-top: 2.5%;
+}
+
+.parent1 {
+    position: relative;
+    height: 6vh;
+    width: 80vw;
+    background-color: rgba(219, 237, 225, 0.145);
+    margin-top: 10%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 5px;
+    border-right: 5px solid rgba(255, 223, 186, 0.7);
+    border-bottom: 5px solid rgba(173, 216, 230, 0.7);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.parent1:hover {
+    border-top: 5px solid rgba(192, 192, 192, 0.5);
+    border-left: 5px solid rgba(240, 255, 240, 0.5);
+    box-shadow: -5px -5px 15px rgba(245, 245, 245, 0.5);
+}
+
+.footer {
+    color: black;
+    font-size: 5px;
+    text-align: center;
+}
+
+.footerbox {
+    background-color: white;
+    width: 20vw;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16vh;
+}
+
+
+#portfolio {
+    color: aliceblue;
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+}
+
+#github {
+    color: aliceblue;
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+}
+
+#linkedin {
+    color: aliceblue;
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+}
+
+#mail {
+    color: aliceblue;
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+}
+
+.logos {
+    margin-left: 10px;
+}
+
+#portfoliosize {
+    height: 6vh;
+    width: 6vh;
+    margin-left: 2px;
+}
+
+#githubsize {
+    height: 6vh;
+    width: 6vh;
+    margin-left: 2px;
+}
+
+#linkedinsize {
+    height: 4vh;
+    width: 4vh;
+}
+
+#mailsize {
+    height: 5vh;
+    width: 5vh;
+}
