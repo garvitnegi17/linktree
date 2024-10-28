@@ -97,6 +97,7 @@ p {
 
 #discord {
     margin-top: 6.5vh;
+    font-size: 2vh;
 }
 
 .logos {
@@ -137,8 +138,8 @@ p {
 }
 
 #discordsize {
-    height: 5vh;
-    width: 5vh;
+    height: 4vh;
+    width: 4vh;
     margin-top: 2vh;
 }
 
