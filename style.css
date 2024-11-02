@@ -95,10 +95,11 @@ p {
     display: inline-block;
 }
 
-#discord {
-    margin-top: 6.5vh;
+#mail {
+    margin-top: 5.5vh;
     font-size: 2vh;
 }
+
 
 .logos {
     margin-left: 10px;
@@ -128,6 +129,7 @@ p {
 #mailsize {
     height: 4vh;
     width: 4vh;
+    margin-top: 1vh;
 }
 
 #leetcodesize {
@@ -140,7 +142,6 @@ p {
 #discordsize {
     height: 4vh;
     width: 4vh;
-    margin-top: 2vh;
 }
 
 .line {
