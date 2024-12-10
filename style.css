@@ -4,7 +4,7 @@
 }
 
 body {
-   background-color: black;
+    background-image: radial-gradient(rgb(87, 4, 4), black);
     overflow-x: hidden;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -88,7 +88,7 @@ p {
 #leetcode,
 #discord {
     color: aliceblue;
-    font-size: 30px;
+    font-size: 25px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -159,7 +159,7 @@ p {
 #xsize {
     height: 4vh;
     width: 4vh;
-    margin-top: 1vh; 
+    margin-top: 1vh;
 }
 
 .line {
@@ -181,4 +181,34 @@ p {
     display: flex;
     justify-content: space-around;
     position: relative;
+}
+
+@media (min-width: 600px) {
+    .parent1 {
+        width: 35vw;
+        margin-top: 3%;
+    }
+
+    .footerbox {
+        width: 10vw;
+    }
+
+    .discription {
+        font-size: 2.5vh;
+    }
+
+    .connect {
+        font-size: 2.5vh;
+        margin-top: 1%;
+    }
+
+    p {
+        margin-top: 1%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .logobox {
+        width: 25vw;
+    }
 }
