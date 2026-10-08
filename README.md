@@ -1,2 +1,2 @@
 This Linktree organizes my key professional links, offering easy access to my portfolio, social profiles, and resources in one convenient place.
-You can visit this site [here](https://garvit-links.netlify.app/.
+You can visit this site [here](https://garvit-links.netlify.app/).
